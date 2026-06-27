@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FT CS Rex</title>
+
+  <!-- Font dari DaFont: Blue Winter (pastikan file blue_winter.ttf ada di folder fonts/) -->
+  <style>
+    @font-face {
+      font-family: 'BlueWinter';
+      src: url('fonts/blue_winter.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'BlueWinter', cursive;
+      background: #1a0630; /* UNGU TUA */
+      color: #ffffff; /* semua teks putih */
+      font-weight: bold; /* semua font bold */
+    }
+
+    .container {
+      max-width: 420px;
+      margin: auto;
+      padding: 10px;
+    }
+
+    .banner {
+      width: 100%;
+      border-radius: 12px;
+      overflow: hidden;
+      margin-bottom: 15px;
+    }
+
+    .banner img {
+      width: 100%;
+      display: block;
+    }
+
+    .section {
+      margin: 20px 0;
+      text-align: center;
+    }
+
+    .title {
+      font-size: 26px;
+      margin-bottom: 10px;
+      font-weight: bold;
+      color: #ffffff;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .card {
+      position: relative;
+      border-radius: 16px;
+      overflow: hidden;
+      background: rgba(155, 92, 255, 0.25);
+      border: 2px solid #9b5cff;
+    }
+
+    .card img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+      opacity: 0.6; /* efek transparan */
+    }
+
+    .card .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 10px;
+    }
+
+    .card .text {
+      font-size: 14px;
+      margin-bottom: 8px;
+      text-shadow: 2px 2px 4px #000;
+      font-weight: bold;
+      color: #ffffff;
+    }
+
+    .card a {
+      background: #7a3cff;
+      padding: 6px 12px;
+      border-radius: 20px;
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .footer-title {
+      font-size: 24px;
+      margin: 25px 0 10px;
+      text-align: center;
+      font-weight: bold;
+      color: #ffffff;
+    }
+
+    .partner {
+      background: linear-gradient(45deg, #b388ff, #7a3cff);
+      border-radius: 14px;
+      padding: 12px;
+      text-align: center;
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- Banner utama -->
+    <div class="banner">
+      <a href="https://www.alwikobrastore.com">
+        <img src="https://i.ibb.co.com/TDBGYj9T/quality-restoration-20260126033149521.png" alt="Topup All Game">
+      </a>
+    </div>
+
+    <!-- Grid menu atas -->
+    <div class="grid">
+      <div class="card">
+        <img src="https://i.ibb.co.com/b5GXWywk/Tak-berjudul305-20260221145651.jpg" alt="Beli akun">
+        <div class="overlay">
+          <div class="text">𝗕𝗘𝗟𝗜 𝗗𝗔𝗡 𝗥𝗘𝗡𝗧𝗔𝗟</div>
+          <a href="https://rk9626567-ux.github.io/Rizky.Xxct/">KLIK DISINI</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://i.ibb.co.com/b5GXWywk/Tak-berjudul305-20260221145651.jpg" alt="Topup murah">
+        <div class="overlay">
+          <div class="text">𝗧𝗢𝗣𝗨𝗣 𝗔𝗟𝗟 𝗚𝗔𝗠𝗘</div>
+          <a href="https://www.alwikobrastore.com">KLIK DISINI</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Nomor admin -->
+    <div class="section">
+      <div class="title">NOMER ADMIN DI SINI</div>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <img src="https://i.ibb.co.com/b5GXWywk/Tak-berjudul305-20260221145651.jpg">
+        <div class="overlay">
+          <div class="text">𝗚𝗥𝗨𝗣 𝗙𝗧 𝗥𝗘𝗫𝗭𝗬</div>
+          <a href="https://chat.whatsapp.com/D0cXycXfSrNC8hqq8jGvkX?mode=gi_t" target="_blank">CHAT WA</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://i.ibb.co.com/b5GXWywk/Tak-berjudul305-20260221145651.jpg" alt="WA ML">
+        <div class="overlay">
+          <div class="text">𝗦𝗔𝗟𝗨𝗥𝗔𝗡 𝗔𝗟𝗟 𝗜𝗡𝗙𝗢</div>
+          <a href="https://whatsapp.com/channel/0029VbBhtsTEwEjz1dAsCZ2b" target="_blank">CHAT WA</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Partner resmi -->
+    <div class="footer-title">PARTNER RESMI</div>
+    <div class="partner">
+      Cek Partner Resmi RexzyStor di sini
+    </div>
+
+  </div>
+</body>
+</html>
